@@ -1,0 +1,11 @@
+enum ConfigurationConstant {
+    START_TIME = 'START_TIME',
+    END_TIME = 'END_TIME',
+    OPERATIONAL_DAYS = 'OPERATIONAL_DAYS',
+    START_BREAK_HOUR = 'START_BREAK_HOUR',
+    BREAK_HOUR_DURATION = 'BREAK_HOUR_DURATION',
+    SLOT_COUNT = 'SLOT_COUNT',
+    SLOT_DURATION = 'SLOT_DURATION'
+}
+
+export { ConfigurationConstant };
