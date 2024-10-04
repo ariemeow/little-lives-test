@@ -49,7 +49,7 @@ const _fillMockData = ():void => {
 
 	holidayRepository.insert([
 		{
-			date: '2024-10-05',
+			date: '2024-10-10',
 			title: 'Owner want to go holiday',
 			isActive: true
 		}
@@ -69,11 +69,11 @@ const _fillMockData = ():void => {
 	configurationRepository.insert([
 		{
 			constant:'START_TIME',
-			value:'08:00'
+			value:'09:00'
 		},
 		{
 			constant:'END_TIME',
-			value:'17:00'
+			value:'18:00'
 		},
 		{
 			constant:'OPERATIONAL_DAYS',
